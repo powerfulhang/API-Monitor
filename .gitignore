@@ -1,0 +1,53 @@
+# dependencies
+node_modules
+
+# output
+out
+dist
+typedoc
+*.tgz
+
+# code coverage
+coverage
+*.lcov
+
+# logs
+log
+logs
+*.log
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# dotenv environment variable files
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+# caches
+.eslintcache
+.cache
+*.tsbuildinfo
+
+# package-manager files
+package-lock.json
+
+# backup files
+*.bak
+
+# Claude Code / Agent config
+.claude/
+AGENTS.md
+CLAUDE.md
+claude-settings.example.json
+
+# local scripts
+run.cmd
+
+# IDE
+.idea
+.vscode
+
+# OS files
+.DS_Store
+Thumbs.db
